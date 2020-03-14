@@ -1,6 +1,18 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 1.5em;
 }
 
 nav {
@@ -8,6 +20,24 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#FFFFFF; } /* unvisited */
+a:visited { color:#A9A9A9; } /* visited */
+a:hover { color:#C0C0C0; } /* mouse over */
+a:active { color:#A9A9A9; } /* selected */
+
+figcaption {
+  font-style: italic;
+  font-size: 75%;
+}
+
+.author {
+  text-transform: uppercase;
 }
 
 .logo {
@@ -44,6 +74,8 @@ li {
 
 article {
   padding-top: 100px;
+  font-size: 100%;
+  line-height: 1.5;
 }
 
 .container {
